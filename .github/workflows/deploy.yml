@@ -1,5 +1,9 @@
 name: frontend deploy
-
+# 设置必要的权限
+permissions:
+  contents: read      # 读取代码内容
+  pages: write        # 写入 GitHub Pages
+  id-token: write     # 用于 OIDC 认证
 on:
   push:
     branches: ['main']
