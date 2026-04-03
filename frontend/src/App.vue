@@ -5,4 +5,3 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <HelloWorld />
 </template>
-<!-- 问问特特和日哦关键是  -->
